@@ -1,17 +1,19 @@
-## Getting Started
-Desafio DIO. Criação de um board de tarefas em java com integração em banco de dados
+# Board De Tarefas
 
-## Folder Structure
+Bem-vindo ao Board de Tarefas Pessoal, um aplicativo simples de gerenciamento de tarefas desenvolvido em Java. Este projeto serve como um exemplo prático de como construir uma aplicação Java com persistência de dados, utilizando um banco de dados SQLite e seguindo princípios de design como a separação de responsabilidades em camadas (Model, DAO, Service, View).
 
-The workspace contains two folders by default, where:
+### ✨ Funcionalidades
+Este aplicativo de linha de comando oferece as seguintes funcionalidades para gerenciar suas tarefas:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Criar Tarefa: Adicione novas tarefas à sua lista.
+- Listar Todas as Tarefas: Visualize todas as tarefas cadastradas.
+- Listar Tarefas Concluídas: Filtre e exiba apenas as tarefas que você já finalizou.
+- Listar Tarefas Pendentes: Veja quais tarefas ainda precisam ser feitas.
+- Editar Tarefa: Modifique o título e/ou o status (concluída/pendente) de uma tarefa existente.
+- Marcar como Concluída/Pendente: Altere facilmente o status de uma tarefa.
+- Excluir Tarefa: Remova tarefas que não são mais necessárias.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### 🛠️ Tecnologias Utilizadas
+- Java 11+
+- JDBC (Java Database Connectivity)
+- SQLite: Banco de dados relacional leve e embarcado.
